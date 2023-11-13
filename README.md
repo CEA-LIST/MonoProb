@@ -44,7 +44,7 @@ python train.py \
 --uncert_act no \
 ```
 
-##### Options for the other training paradigms:
+#### Options for the other training paradigms:
 
 * Training from stereo images only (**S**): `--use_stereo --frame_ids 0 --split eigen_full`
 * Training from monocular videos and stereo images only (**MS**): `--use_stereo`
@@ -57,7 +57,7 @@ MonoProb checkpoints are available [here](https://drive.google.com/drive/folders
 sh scripts/download_checkpoints.sh
 ```
 
-##### Evaluation scripts:
+#### Evaluation scripts:
 
 ```
 sh scripts/eval_M.sh /path/to/kitti_data
