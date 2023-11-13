@@ -1,0 +1,6 @@
+pytorch
+torchvision
+opencv-python
+scikit-image
+tensorboard
+gdown
