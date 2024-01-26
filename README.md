@@ -43,6 +43,7 @@ python train.py \
 --load_weights_folder /path/of/the/teacher's/checkpoints
 --uncert_act no \
 ```
+NB: Use the last checkpoints returned by MonoProb M <u>without</u> self-distillation as teacher's checkpoints.
 
 #### Options for the other training paradigms:
 
