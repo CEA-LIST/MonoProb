@@ -450,7 +450,8 @@ class Trainer:
 
             _, depth = disp_to_depth(disp, self.opt.min_depth, self.opt.max_depth)
 
-            depth_samples, probas = self.offsets_sampling(depth, uncert).clamp(min=1e-3, max=None)
+            depth_samples, probas = self.offsets_sampling(depth, uncert)
+            depth_samples = depth_samples.clamp(min=1e-3, max=None)
 
             outputs[("depth", 0, scale)] = depth
             outputs[("uncert", scale)] = uncert
