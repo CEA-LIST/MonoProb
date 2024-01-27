@@ -40,8 +40,9 @@ python train.py \
 --uncertainty \
 --distribution normal \
 --self \
---load_weights_folder /path/of/the/teacher's/checkpoints
+--load_weights_folder /path/of/the/teacher's/checkpoints \
 --uncert_act no \
+--models_to_load encoder depth
 ```
 NB: Use the last checkpoints returned by MonoProb M <u>without</u> self-distillation as teacher's checkpoints.
 
