@@ -244,7 +244,8 @@ class MonodepthOptions:
         self.parser.add_argument("--dist_self",
                                  help="Distribution of the student depth prediction",
                                  type=str,
-                                 choices=['normal', 'laplace'])
+                                 choices=['normal', 'laplace'], 
+                                 default='normal')
         self.parser.add_argument("--uncert_act_stud",
                                  help="Activation function that output the uncertainty of the student",
                                  type=str,
