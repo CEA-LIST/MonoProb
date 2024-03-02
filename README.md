@@ -1,6 +1,8 @@
 # MonoProb: Self-Supervised Monocular Depth Estimation with Interpretable Uncertainty 
 
-This repository contains the official implementation of **[MonoProb: Self-Supervised Monocular Depth Estimation with Interpretable Uncertainty](https://arxiv.org/abs/2311.06137)** that has been accepted to the **IEEE Winter Conference on Applications of Computer Vision (WACV) 2024**.
+This repository contains the official implementation of **[MonoProb: Self-Supervised Monocular Depth Estimation with Interpretable Uncertainty](https://openaccess.thecvf.com/content/WACV2024/html/Marsal_MonoProb_Self-Supervised_Monocular_Depth_Estimation_With_Interpretable_Uncertainty_WACV_2024_paper.html
+)** that has been accepted to the **IEEE Winter Conference on Applications of Computer Vision (WACV) 2024**.
+
 
 ![Diagram of MonoProb](./media/monoprob_diagram.png "Diagram of MonoProb")
 
